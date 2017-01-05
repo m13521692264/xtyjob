@@ -1,0 +1,294 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+@-webkit-keyframes run {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(-1, 1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+/*头部*/
+header {
+  width: 100%;
+  height: 2.25rem;
+  background: #ec3434;
+  color: #fff;
+  text-align: center;
+  line-height: 2.25rem;
+  font-size: 0.85rem;
+}
+header i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.15rem;
+  height: 2.25rem;
+  background-image: url("../imgs/back.png");
+  /*background: url(../imgs/close.png);*/
+  background-repeat: no-repeat;
+  background-size: 0.55rem;
+  background-position: center center;
+}
+/*wrap*/
+.wrap {
+  width: 15.15rem;
+  margin: 0 auto ;
+}
+.wrap ul li {
+  float: left;
+  width: 7.25rem;
+  height: 5.35rem;
+  border-radius: 0.35rem;
+  margin-top: 0.65rem;
+  text-align: center;
+}
+.wrap ul li.end {
+  background: #c9c9c9 url("../imgs/bg1.png");
+  background-size: 7.25rem;
+  background-repeat: no-repeat;
+}
+.wrap ul li.no-start {
+  background: #21c9a8 url("../imgs/bg1.png");
+  background-size: 7.25rem;
+  background-repeat: no-repeat;
+}
+.wrap ul li:nth-child(even) {
+  margin-left: 0.575rem;
+}
+.wrap ul li h4 {
+  font-size: 0.65rem;
+  color: #675565;
+  margin-top: 0.75rem;
+}
+.wrap ul li time {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 0.5rem;
+  display: block;
+}
+.wrap ul li p {
+  color: #fff;
+  font-size: 0.5rem;
+}
+.hide-detail {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  /*红包详情*/
+  /*查看奖品*/
+}
+.hide-detail .outer-detail {
+  width: 13.2rem;
+  height: 17.75rem;
+  background: #e1544a;
+  border-radius: 0.25rem;
+  margin: 4.35rem auto 0;
+  text-align: center;
+  color: #f0e9b2;
+  position: relative;
+  display: none;
+}
+.hide-detail .outer-detail i {
+  width: 0.75rem;
+  height: 0.75rem;
+  display: block;
+  background-image: url("../imgs/close.png");
+  background-size: 0.75rem;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 0.45rem 11.45rem 0rem 0.45rem;
+}
+.hide-detail .outer-detail .person {
+  width: 2.45rem;
+  height: 2.45rem;
+  margin: 0.5rem auto 0;
+}
+.hide-detail .outer-detail .person img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.hide-detail .outer-detail h4 {
+  font-size: 0.6rem;
+  margin-top: 0.3rem;
+  font-weight: normal;
+}
+.hide-detail .outer-detail time {
+  font-size: 1.7rem;
+  margin-top: 0.6rem;
+  display: block;
+}
+.hide-detail .outer-detail p {
+  font-size: 0.40rem;
+  margin-top: 0.6rem;
+}
+.hide-detail .outer-detail .k-radius {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  bottom: 3.15rem;
+  z-index: 100;
+  left: 50%;
+  margin-left: -2rem;
+  transition: 1s;
+  -webkit-transition: 1s;
+}
+.hide-detail .outer-detail .k-radius img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.hide-detail .outer-detail .k-bg {
+  background-image: url("../imgs/kbg_03.png");
+  width: 13.2rem;
+  height: 7.25rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0;
+}
+.hide-detail .look-detail {
+  width: 14.55rem;
+  height: 9.5rem;
+  margin: 8.6rem auto 0;
+  display: none;
+}
+.hide-detail .look-detail .d-t {
+  width: 100%;
+  height: 7.3rem;
+  background: #ff5001;
+  border-radius: 0.25rem 0.25rem 0 0;
+  box-sizing: border-box;
+  padding: 1.35rem 0.4rem 0;
+  position: relative;
+}
+.hide-detail .look-detail .d-t .d-t-l {
+  width: 4.6rem;
+  height: 4.6rem;
+  float: left;
+}
+.hide-detail .look-detail .d-t .d-t-l img {
+  width: 100%;
+  height: 100%;
+}
+.hide-detail .look-detail .d-t .d-t-r {
+  float: left;
+  width: 8.65rem;
+  height: 4.6rem;
+  margin-left: 0.5rem;
+}
+.hide-detail .look-detail .d-t .d-t-r h4 {
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #fff;
+}
+.hide-detail .look-detail .d-t .d-t-r .schedule {
+  box-sizing: border-box;
+  padding-top: 0.35rem;
+}
+.hide-detail .look-detail .d-t .d-t-r .schedule .outer-span {
+  width: 4.8rem;
+  height: 0.2rem;
+  background: #faac88;
+  display: inline-block;
+  float: left;
+  border-radius: 0.1rem;
+}
+.hide-detail .look-detail .d-t .d-t-r .schedule .outer-span .inner-span {
+  display: inline-block;
+  width: 3.6rem;
+  height: 0.2rem;
+  background: #ffe732;
+  float: left;
+  border-radius: 0.1rem;
+}
+.hide-detail .look-detail .d-t .d-t-r .schedule .num-outer {
+  margin-left: 0.25rem;
+  display: inline-block;
+  float: left;
+  margin-top: -0.3rem;
+}
+.hide-detail .look-detail .d-t .d-t-r .schedule .num-outer i {
+  float: left;
+  font-size: 0.45rem;
+  color: #ffe732;
+}
+.hide-detail .look-detail .d-t .d-t-r .grab a {
+  display: inline-block;
+  width: 2.9rem;
+  height: 1rem;
+  background: #fee936;
+  border-radius: 0.1rem;
+  font-size: 0.5rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #fb1900;
+}
+.hide-detail .look-detail .d-t .d-t-r .grab span {
+  font-size: 0.4rem;
+  color: #fff;
+}
+.hide-detail .look-detail .d-t .d-t-r ul li {
+  float: left;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+.hide-detail .look-detail .d-t .d-t-r ul li img {
+  width: 100%;
+  height: 100%;
+}
+.hide-detail .look-detail .d-t .d-t-r ul li:nth-child(1) {
+  margin-left: 0;
+}
+.hide-detail .look-detail .d-t .d-t-a {
+  width: 100%;
+  height: 1.7rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.7rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0 0.4rem;
+  box-sizing: border-box;
+}
+.hide-detail .look-detail .d-b {
+  width: 100%;
+  height: 2.2rem;
+  background: #fff;
+  border-radius: 0 0 0.25rem 0.25rem;
+}
+.hide-detail .look-detail .d-b a {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 2.2rem;
+  box-sizing: border-box;
+  color: #ff7300;
+}
+.hide-detail .look-detail .d-b a:nth-child(2) {
+  color: #0f0f0f;
+  border-left: 2px solid #af6a40;
+}

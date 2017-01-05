@@ -1,0 +1,78 @@
+body {
+	background: #F5F6F7;
+}
+.state-overview .value {
+	float: none;
+}
+.qypanel {
+	height: 78px;
+	border: 1px solid #ccc;
+	/*margin-right: 20px;*/
+}
+.qytask-thumb {
+	margin-right: 10px;
+}
+.task-thumb img {
+	width: 47px;
+	height: 47px;
+	margin: 15px 0px 15px 15px;
+}
+.qycol-lg-8 {
+	padding-left: 25px;
+}
+.qyh4 {
+	padding: 10px 10px;
+	border-bottom: 1px solid #ccc;
+	margin: 0px;
+}
+.height392 {
+	height: 392px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.state-overview .value_width {
+	 width: 80%;
+	 padding-top: 18px;
+}
+.hr {
+	 width: 94%;
+	 margin: 0 auto;
+	 height: 1px;
+	 background: #ccc;
+	 margin-top: 12px;
+}
+.qytuijian .task-thumb img {
+	width: 40px;
+	height: 40px;
+}
+.height410 {
+	height: 410px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.qyh4 span {
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+}
+.height410 ul {
+	padding: 0px 20px;
+}
+.li-gonggao li {
+	height: 62px;
+	line-height: 62px;
+	/*list-style-type:disc;*/
+	border-bottom: 1px solid #ccc;;
+}
+.li-gonggao li span {
+	float: right;
+	display: block;
+	width: 80px;
+	text-align: left;
+}
+.white-bg {
+	background: #00A0E9;
+}
+a.logo {
+	margin-top: 0px;
+}

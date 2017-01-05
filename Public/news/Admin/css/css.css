@@ -1,0 +1,1033 @@
+.header-person { position: absolute; top: -3px; right: -40px;}
+/*.top-nav .top-menu li span{ padding: 10px 0 0 0; display: block; float: left;}*/
+.top-nav .top-menu li span font { position: relative; top: -26px; background: #fd5f39; width: 16px; height: 16px; display: block; color: #fff; border-radius: 50%;	-webkit-border-radius:50%; font-size: 11px; text-align: center; line-height: 16px;right: -8px;}
+#btn-search{width: 15px; height: 16px; background: url(../img/images/search_09.png); border: 0; position: relative; top: -24px; right: -154px;}
+
+body {
+	background: #F5F6F7;
+}
+.state-overview .value {
+	float: none;
+}
+.qypanel {
+	height: 78px;
+	border: 1px solid #ccc;
+	/*margin-right: 20px;*/
+}
+.qytask-thumb {
+	margin-right: 10px;
+}
+.task-thumb img {
+	width: 47px;
+	height: 47px;
+	margin: 15px 0px 15px 15px;
+}
+/*.qycol-lg-8 { padding-left: 25px;}*/
+.qyh4 {
+	padding: 10px 10px 10px 20px;
+	border-bottom: 1px solid #ccc;
+	margin: 0px;
+}
+.height392 {
+	min-height: 392px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.state-overview .value_width {
+	 width: 76%;
+	 padding-top: 18px;
+}
+.hr {
+	 width: 94%;
+	 margin: 0 auto;
+	 height: 1px;
+	 background: #ccc;
+	 margin-top: 12px;
+}
+.qytuijian .task-thumb img {
+	width: 40px;
+	height: 40px;
+}
+.height410 {
+	max-height: 410px;
+	border: 1px solid #ccc;
+	overflow: hidden;
+}
+.qyh4 span {
+	float: right;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ccc;
+}
+.height410 ul {
+	padding: 0px 10px 0px 20px;
+}
+.li-gonggao li {
+	height: 57px;
+	line-height: 57px;
+	/*list-style-type:disc;*/
+	border-bottom: 1px solid #ccc;
+}
+.li-gonggao li span {
+	float: right;
+	display: block;
+	width: 80px;
+	text-align: left;
+}
+.white-bg {
+	background: #00A0E9;
+}
+.font-color-black { color: black;}
+.table330 {max-height: 330px;overflow: hidden;}
+.ul.top-menu>li>a {margin-top: 6px;}
+/*.list-inline>li {padding: 0 0 0 0;}*/
+.un-right-padding {padding-right: 0px;}
+.un-padding {padding: 0 0 0 0;}
+.font-yahei {color: black;}
+.font-overflow-hidden {white-space: nowrap;display:inline-block;width:63%;line-height: 12px;overflow:hidden;}
+.data-div {margin-top: 20px;}
+.li-gonggao .un-botton-line {border-bottom: none;}
+
+/* 发布职位开始 */
+.job-posted-pasic {
+	padding: 0 36px;
+	color: black;
+}
+.job-posted-pasic .panel {
+	border: 1px solid #eff2f7;
+	/*padding: 0 16px;*/
+}
+.job-posted-pasic .panel .city-outer{
+	padding: 0px 10px;
+}
+.job-posted-pasic .panel ul li {
+	min-height: 64px;
+	line-height: 64px;
+	padding-left: 16px;
+	display: block;
+	border-bottom: 1px solid #eff2f7;
+}
+.job-posted-pasic .panel ul li p, .job-posted-detail> div p {
+	display: inline-block;
+	margin: 0;
+	float: left;
+	margin: 0px 6px;
+}
+.job-posted-pasic .panel ul li span, .job-posted-detail> div span {
+	color: red;
+	float: left;
+}
+.job-posted-pasic .panel ul li textarea{
+	float: left;
+	margin: 15px 0;
+	display: inline-block;
+	line-height: 26px;
+	border: 1px solid #e0e3e9;
+}
+/*.li-hr {
+	width: 98%;
+	margin: 0 auto;
+	background: #ccc;
+	height: 1px;
+}*/
+.job-posted-info-title {
+	height: 46px;
+	line-height: 46px;
+	font-size: 16px;
+	color: black;
+	padding-left: 26px;
+	border-bottom: 1px solid #eff2f7;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline-block select{
+	color: black;
+}
+.half-width {
+	width: 50%;
+}
+.job-town {
+	margin-left: 20px;
+}
+.btn-group-lg>.btn {
+	padding: 0px;
+}
+.btn label {
+	margin-bottom: 0px;
+	min-height: 34px;
+	line-height: 34px;
+	min-width: 80px;
+}
+.btn-group-lg>.btn-size {
+	/*padding: 10px 28px;*/
+	top: 16px;
+	max-height: 34px;
+	font-size: 12px;
+	color: black;
+	line-height: 12px;
+}
+.btn-toolbar>.btn-group.btn-radio {
+	margin-left: 0px;
+}
+.btn-radio .btn-radio-right {
+	border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+}
+.btn-ececec {
+	background: #ececec;
+}
+.linkman {
+	display: inline-block;
+	margin-left: 12px;
+	height: 38px;
+}
+.input-width-40 {
+	width: 40%;
+}
+.input-width-53 {
+	width: 53%;
+}
+.job-posted-pasic .panel ul li:last-child {
+	border-bottom: none;
+}
+.job-posted-detail {
+	margin: 0px 16px;
+	border-bottom: 1px solid #eff2f7;
+}
+.clearfloat {
+	clear: both;
+	float: none;
+}
+.job-posted-detail>div:first-child {
+	min-height: 42px;
+	line-height: 12px;
+	padding: 16px 10px;
+}
+.li-line {
+	padding-left: 0px;
+}
+.bdlist {
+	padding-left: 10px;
+}
+.bdlist ul, .bdlist ul li {
+	float: left;
+}
+.li-inline {
+	padding-left: 10px;
+}
+.job-posted-pasic .panel .bdlist ul li {
+	border-bottom: none;
+}
+.li-inline>li:nth-child(1) {
+	/*max-width: 200px;*/
+}
+.input-width-68px {
+	width: 68px;
+}
+.input-width-118px {
+	width: 118px;
+}
+.bdlist ul li b {
+	font-weight: normal;
+}
+.bdlist ul li input {
+	color: black;
+}
+.li-inline li .btn-xs{
+	margin-bottom: 5px;
+}
+.first-conf {
+	padding-left: 24px;
+	margin-bottom: 20px;
+}
+.panel-heading {
+	border-top: 0px;
+	border-bottom: 1px solid #eff2f7;
+}
+.posted-footer {
+	margin: 20px 0px 20px 20px;
+	width: 70%;
+}
+#detail-un-bottom .detail-un-bottom{
+	border-bottom: 0px;
+}
+.panel-body ol.list-inline-bottom {
+	border-bottom: 1px solid #eff2f7;
+	padding-bottom: 15px;
+}
+.panel-body p {
+	font-size: 16px;
+}
+.panel-body .form-group {
+	margin-bottom: 0;
+}
+.panel-body ol{
+	margin-bottom: 12px;
+}
+.panel-body p span {
+	color: red;
+}
+.panel-body input {
+	color: black;
+}
+.panel-body .list-inline li {
+	margin-right: 10px;
+}
+/*首页时间配置*/
+.index-time abbr{
+	display: inline-block;
+	line-height: 34px;
+	float: left;
+}
+.index-time .index-time-input {
+	display: inline-block;
+	width: 70%;
+	float: left;
+}
+.index-time ol {
+	padding: 0;
+}
+.index-time ol li{
+	width: 49%;
+	display: inline-block;
+}
+.index-time ol .inline-block{
+	width: 160px;
+}
+.index-time  div.input-width{
+	width: 160px;
+}
+.index-address ol{
+	padding: 0;
+	list-style: none;
+} 
+.index-address abbr{
+	display: inline-block;
+	line-height: 34px;
+	float: left;
+}
+.index-address .inline-block {
+	width: 394px;
+}
+#dbmap-select {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.bdmap-select .inline-block{
+	width: auto;
+}
+.auto-addr {
+	margin: 10px 0px 0px 64px;
+}
+.panel-body ol.un-bottom-line {
+	border-bottom: 0px;
+}
+.panel span {
+	vertical-align: middle;
+}
+.baidu-map {
+	width: 60%;
+	margin-left: 78px;
+}
+.map-submit {
+	max-width: 480px;
+	margin-top: 20px;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+}
+.dd-list-inline {
+	display: inline-block;
+	width: 72px;
+	height: 30px;
+	margin: 10px 20px;
+	line-height: 30px;
+	border-radius: 15px;
+	background: #00a0ea;
+	color: white;
+}
+.map-reset {
+	background: #e0e3e9;
+}
+.bdul-one {
+	margin-bottom: -16px;
+}
+.bdul-two {
+	margin-bottom: -4px;
+}
+#form-submit {
+	width: 70%;
+	text-align: center;
+}
+#form-submit input {
+	color: white;
+	height: 40px;
+	line-height: 40px;
+	width: 160px;
+	background: #00a0ea;
+	text-align: center;
+	border: 0px;
+	border-radius: 5px;
+	font-size: 16px;
+}
+.btn label {
+	font-weight: normal;
+}
+.btn label input {
+	display: none;
+}
+.time-selected div {
+	float: left;
+}
+.time-selected span {
+	display: inline-block;
+	padding-right: 4px;
+}
+#divspan {
+	width:80%;
+}
+.divtime {
+	min-height:40px;
+}
+/* 发布职位结束 */
+
+/*企业管理*/
+.job-posted-pasic .panel ul li ol#dbmap-select {
+	padding: 0;
+}
+.job-posted-pasic .panel ul li ol#dbmap-select li{
+	padding: 0;
+}
+.job-posted-pasic .panel ul li ol#dbmap-select li .auto-addr{
+	padding-left: 18px;
+	margin-top: -18px;
+}
+.job-posted-pasic .panel ul li ol#dbmap-select li .auto-addr input{
+	color: #333;
+	min-width: 283px;
+} 
+.city-outer .connection-about{
+	width: 120px;
+}
+.city-outer .connection-p{
+	width: 70px;
+}
+.city-outer .connection-email{
+	width: 215px;
+}
+.radio-background {
+	background: #ececec;
+}
+.btn-group label {
+	font-size: 12px;
+	color: black;
+	height: 34px;
+	margin-top: -4px;
+    padding: 8px 16px;
+}
+/*企业管理结束*/
+
+/*管理职位的模块-张鹏*/
+/*顶部圆角CSS设置*/
+.panel-heading{
+	border-top-left-radius:6px;
+	border-top-right-radius:6px;
+}
+/*报名管理与工资结算CSS修改*/
+.baoming{
+	color:#7DDAD3;
+	background-color: #fff;
+	border-color:#7DDAD3;
+}
+.jiesuan{
+	color:#78CD51;
+	background-color:#fff;
+	border-color:#78CD51;
+	margin-left: 10px;
+}
+.baoming:hover{
+	color:#fff;
+	background-color:#41CAC0 ;
+}
+.jiesuan:hover{
+	color:#fff;
+	background-color:#78CD51 ;
+}
+
+
+/*表格的CSS修改*/
+.table>tbody>tr>td{
+	vertical-align: middle;
+}
+.table-zp{
+	/*margin-top:60px;*/
+	border:1px solid #DDDDDD;
+}
+.trjz{
+	height:50px;
+}
+th{
+	color:#999999;
+}
+
+/*导航栏设置*/
+.nav-tabs>li{
+	margin-bottom:-11px;
+}
+.panel-heading .nav{
+	margin:-3px -7px;
+}
+
+.th-one{
+	width:23%;
+}
+.th-tow{
+	width:20%;
+}
+.th-three{
+	width:14%;
+}
+.th-four{
+	width:11%;
+}
+.th-five{
+	width:21%;
+}
+.th-six{
+	width:18%;
+}
+/*最顶部线条修改bootstrap-rest.css:32*/
+
+
+/*************************安全认证****************************/
+/*form表单与头部间距*/
+.formcon{
+	margin-top: 60px;
+}
+/*form字体颜色设置与左边间距*/
+form{
+	color:#333333;
+}
+.xxcolor{
+	vertical-align: middle;
+}
+/*input表框与字体的间距*/
+.inputjz{
+	margin-left:20px;
+	width:200px;
+	float:left;
+	display:inline;
+}
+.inputjz-bottom{
+	margin-left:5px;
+	width:200px;
+	float:left;
+}
+.span-right{
+	float:left;
+	margin-left:16px;
+}
+/*按钮设置*/
+.btnz{
+	width:80px;
+	height:26px;
+	background:#59ACE2;
+	margin-left: 82px;
+	color:#fff;
+	line-height: 10px;
+	margin-top:-4px;
+}
+/*错误提示与input表框的间距*/
+.spanjz{
+	display: block;
+	margin-top: 7px;
+}
+/*验证码input表框的大小*/
+.yzinputjz{
+	width:120px;
+}
+/*发送验证码按钮CSS设置*/
+.yz-anniu>.yzbuttonone{
+	width:98px;
+	height:26px;
+	line-height: 10px;
+	margin-left: -72px;
+	margin-top: 4px;
+	border-color:#59ACE2;
+	color:#59ACE2;
+	background:#fff;
+}
+
+/*QQ绑定间距*/
+.qqbd{
+	margin-top: 30px;
+	margin-left: -2px;
+}
+/*QQ字体间距*/
+.qq{
+	float:left;
+	line-height:30px;
+}
+/*QQ图片设置*/
+.qqimg{
+	float:left;
+	margin-left: 23px;
+	width:34px;
+	height:34px;
+}
+/*QQ更换设置*/
+.qqgh{
+	float:left;
+	margin-left: 24px;
+	line-height: 30px;
+}
+/*微信间距*/
+.wxbd{
+	margin-top: 5px;
+	margin-left: -2px;
+}
+/*微信字体间距*/
+.wx{
+	float:left;
+	line-height:30px;
+}
+/*微信图片设置*/
+.wximg{
+	float:left;
+	margin-left: 19px;
+	width:34px;
+	height:34px;
+}
+/*微信更换设置*/
+.wxgh{
+	float:left;
+	margin-left: 20px;
+	line-height: 30px;
+}
+/*微博绑定设置间距*/
+.wbbd{
+	margin-top: 5px;
+	margin-left: -2px;
+}
+/*微博字体设置*/
+.wb{
+	float:left;
+	line-height:30px;
+}
+/*微博图片设置*/
+.wbimg{
+	float:left;
+	margin-left: 15px;
+	width:34px;
+	height:34px;
+}
+/*微博更换设置*/
+.wbgh{
+	float:left;
+	margin-left: 24px;
+	line-height: 30px;
+}
+/*下划线设置*/
+.hx{
+	margin-top:60px;
+}
+
+/**********************我的消息************************/
+/*阿里巴巴字体图标库*/
+@font-face {
+	font-family: 'iconfont';  /* project id："172945" */
+	src: url('../assets/font_sozbocghccwn4s4i/iconfont.eot'); /* IE9*/
+	src: url('../assets/font_sozbocghccwn4s4i/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../assets/font_sozbocghccwn4s4i/iconfont.woff') format('woff'), /* chrome、firefox */
+	url('../assets/font_sozbocghccwn4s4i/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+	url('../assets/font_sozbocghccwn4s4i/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.body-waiwei{
+	border:1px solid #D5DADF;
+	border-radius:4px;
+}
+.iconfont{
+	font-family:"iconfont" !important;
+	font-size:30px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+	color:#38A5DF;
+	font-weight: bold;
+	line-height: 52px;
+}
+/*阿里巴巴字体图标库结束*/
+.newimg{
+	width:52px;
+	height:52px;
+	background-color: #F7F8FA;
+	border-radius:50px;
+	text-align: center;
+	float:left;
+	margin-left:20px;
+	margin-top: -2px;
+}
+
+.newimg>img {
+	width: 40px;
+	height: 36px;
+	text-align: center;
+	line-height: 83px;
+	margin: 9px auto;
+}
+.newleft{
+	float:left;
+	width:14px;
+	height:14px;
+	margin-top:5px;
+}
+
+.newright{
+	float:left;
+	margin-left: 10px;
+	margin-top:2px;
+
+}
+.fonttop{
+	color:#333333;
+}
+.fontbottom{
+	color:#666666;
+	display:block;
+	margin-top:2px;
+}
+
+.newx{
+	margin-top:88px;
+	border-color:#EFF2F7;
+}
+.newxx{
+	margin-top:88px;
+	border-color:#EFF2F7;
+	margin-left: -15px;
+	width:103%;
+}
+.first-hr{
+	width:103%;
+	margin-left:-15px;
+}
+.btnleft{
+	width:49px;
+	height:30px;
+	margin-left: 20px;
+	color:#333333;
+	line-height: 10px;
+	font-size: 12px;
+
+}
+.btnright{
+	width:83px;
+	height:30px;
+	margin-left: 10px;
+	color:#333333;
+	line-height: 10px;
+	font-size: 12px;
+}
+.newbottom{
+	float:left;
+	width:14px;
+	height:14px;
+	margin-top:-6px;
+}
+.pagejz{
+	margin-top: -29px;
+	float:right;
+}
+.lifirst{
+	font-size: 16px;
+	color:#333333;
+}
+
+
+/*张鹏end*/
+
+/*冯凯平css*/
+.wrapper{
+	/*font-size: 10px;*/
+	margin-top:66px;
+	padding: 15px 40px;
+}
+.v-top{
+	vertical-align: top;
+}
+.v-bottom{
+	vertical-align: bottom;
+}
+.v-middle{
+	vertical-align: middle;
+}
+.f-left{
+	float: left;
+}
+.f-input-sm{
+	font-size: 12px;
+	height: 28px;
+	width: auto;
+	padding: 2px 8px;
+	color: #666666;
+}
+
+/*表格中的样式*/
+
+td i.jiahao{
+	margin-right: 10px;
+}
+
+.table.dataTable tr td,
+.table.dataTable tr th {
+	vertical-align: middle;
+}
+.table-hover.table-condensed.table-striped.table-bordered td,
+.table-hover.table-condensed.table-striped.table-bordered th{
+	border-left: none;
+	border-right: none;
+
+}
+.table-hover.table-condensed.table-striped.table-bordered th{
+	font-weight: normal;
+	color:#AAA;
+}
+.table tr td i.jiahao{
+	color:#59ACE2;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+/*面板样式*/
+.panel input.search{
+	margin-top:-2px;
+	width:280px;
+	margin-right: 17px;
+}
+
+.panel ul.nav{
+	padding-left: 23px;
+}
+
+div.panel-info > .panel-heading {
+	background-color: #59ACE2;
+}
+ul.unstyled{
+	width: 100%;
+}
+ul.unstyled,ul.unstyled li{
+	margin: 8px 0px;
+	list-style: none;
+	display: inline;
+	float: left;
+}
+ul.unstyled li{
+	margin-right: 30px;
+	color:black;
+	font-size:15px;
+}
+ul.unstyled li select{
+	display: inline;
+	color:black;
+	font-size:13px;
+	font-weight: lighter;
+}
+
+.panel .panel-heading li{
+	font-size: 17px;
+}
+div#panel-collapse-1{
+	border:1px solid #DDDDDD;
+	border-top: none;
+}
+.panel .panel-heading li a{
+	padding: 8px 15px;
+	font-weight: lighter;
+}
+.panel .panel-heading li.active a{
+	padding: 8px 15px;
+	font-weight: lighter;
+	color: #59ACE2;
+}
+ul.pagination.success.pull-right{
+	margin: 0px;
+}
+ul.pagination.success li{
+	margin-left: 10px;
+	display: block;
+	float: left;
+}
+ul.pagination.success li a{
+	border-radius: 4px;
+}
+.pagination > li > a,
+.pagination > li > a:focus,
+.pagination > li > a:hover{
+	color: #333333;
+}
+.row-fluid ul.unstyled{
+	padding-bottom: 8px;
+	margin: 6px 0px;
+}
+
+input.search{
+	background: #fff url(../img/images/search_09.png) no-repeat 248px 9px;
+}
+/*修改*/
+.newTr td li{
+	margin:0 0 0 3.5%;
+	width: 5.3%;
+	color:#999999;
+	font-size: 12px;
+	text-align: center;
+
+}
+.newTr{
+	background-color: #f5f5f5;
+}
+.newTr td li:nth-last-of-type(5) ~ li{
+	margin:0 0 0 30px;
+	width: 50px;
+}
+
+.v-line span{
+	display: inline-block;
+	/*width: 1px;*/
+	height: 33px;
+	border-left: 1px solid;
+}
+
+.text-blue{
+	color:#00a0e9;
+}
+/*底部按钮*/
+.bottom-btn-group{
+	margin-left: 12px;
+}
+.bottom-btn-group label span{
+	display: inline-block;
+	margin-left: 10px;
+}
+.bottom-btn-group .btn{
+	margin-left: 10px;
+	background: #fff;
+	border: 1px solid #dddddd;
+	color:#333333;
+
+}
+.bottom-btn-group button:first-of-type{
+	margin-left: 20px;
+}
+.bottom-btn-group label{
+	font-weight: normal;
+}
+
+ul.dropdown-menu li a:hover{
+	background-color:#f5f5f5;
+	color:#666666;
+}
+td ul.dropdown-menu{
+	font-size: 12px;
+	min-width: 138px;
+}
+
+/*.panel-heading .nav > li.active:first-child > a,
+.panel-heading .nav > li:last-child > a:hover {
+  border-top-right-radius: 4px;
+}*/
+
+.panel-heading .nav > li:last-child > a,
+.panel-heading .nav > li:last-child > a:hover,
+.panel-heading .nav > li.active:last-child > a {
+	border-top-right-radius: 4px;
+}
+
+table .checkbox label{
+	vertical-align: top;
+}
+
+/*section label{*/
+	/*margin-bottom: 0px;*/
+/*}*/
+table.f-tab tr th:first-child,
+table.f-tab tr td:first-child{
+	padding-right: 0px;
+	width:30px;
+}
+table.f-tab tr th:first-child + th,
+table.f-tab tr td:first-child + td{
+	padding-left: 0px;
+}
+/*table.f-tab th:last-of-type{*/
+	/*text-align: center;*/
+/*}*/
+
+#example-search-quickAdd ul.inline li{
+	color:#333333;
+	font-size: 14px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#example-search-quickAdd ul.inline{
+	padding: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#example-search-quickAdd form{
+	color:#333333;
+	font-size: 14px;
+}
+#example-search-quickAdd form ul select{
+	height: 34px;
+	color:#333333;
+	margin-left: 4px;
+}
+
+#example-search-quickAdd .wraperSubmit{
+	padding-left: 100px;
+}
+#example-search-quickAdd .wraperSubmit .btn{
+	background-color: #59ace2;
+	border-color: #59ace2;
+	color:white;
+	width:80px;
+}
+#example-search-quickAdd .panel{
+	margin-bottom: 0px;
+}
+#example-search-quickAdd .panel-body{
+	padding-bottom: 0px;
+	/*padding-top: 0px;*/
+}
+#example-search-quickAdd .form-control{
+	color: #555;
+}
+.form-group label{
+	padding-left: 15px;
+}
+.form-group .notice{
+	padding-top: 7px;
+}
+
+div.checkbox label{
+	color: #333333;
+}
+/*复选框背景颜色*/
+.checkbox-info input[type="checkbox"]:checked + label::before, .checkbox-info input[type="radio"]:checked + label::before {
+	background-color: #00a0e9;
+	border-color: #00a0e9;
+}
+
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+	color: #eee;
+	border-color: #eee;
+}
+
+/*定义select样式*/
+option{
+	padding:4px;
+}
+
+/*鹏凯平end*/

@@ -1,0 +1,681 @@
+<include file="Public:header"/>
+<body>
+<!-- BEGIN SECTION -->
+<section id="container" class="">
+
+<include file="Public:top"/>
+    <!-- END SIDEBAR -->
+
+    <!-- BEGIN MAIN CONTENT -->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <ul>
+                                <li class="first-font">
+                                    分站管理
+                                </li>
+                                <div class="opinion-hr">
+                                    <hr />
+                                </div>
+                            </ul>
+
+                            <table class="f-tab table-hover table-condensed table-striped table-bordered table dataTable"  >
+
+                                <thead>
+                                <tr role="row">
+                                    <th>&nbsp;</th>
+                                    <th>分站名称</th>
+                                    <th>域名</th>
+                                    <th>触屏版域名</th>
+                                    <th>状态</th>
+                                    <th>地区</th>
+                                    <th>模板</th>
+                                    <th>管理</th>
+                                </tr>
+
+
+                                </thead>
+                                <tbody role="alert" aria-live="polite" aria-relevant="all">
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a1" type="checkbox">
+                                            <label for="checkbox_a1"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">北京</a></td>
+                                    <td>bj.yjob.net</td>
+                                    <td>bi.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        北京市
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="#myAlter" class="text-primary" data-toggle="modal">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+                                        <div class="modal fade" id="myAlter">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header enterprise-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                            ×
+
+                                                        </button>
+                                                        <h4 class="modal-title">修改分站</h4>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <ul class="p-info">
+                                                            <form method="post" action="" class="form-horizontal">
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>分站名称:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <input type="text" name="" class="form-control">
+                                                                        </div>
+                                                                        <div class="personal-right">
+                                                                            <span>如:北京人才网</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>分站状态:</span>
+                                                                        </div>
+                                                                        <div class="personal-radio">
+                                                                            <input type="radio" name="member" value="0" checked="checked">可用
+                                                                            <input type="radio" name="member" value="1">禁用
+                                                                        </div>
+                                                                    </div>
+
+                                                                </li>
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>分站地区:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <select class="form-control">
+                                                                                <option>北京市</option>
+                                                                                <option>上海市</option>
+                                                                                <option>广州市</option>
+                                                                            </select>
+
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <select class="form-control">
+                                                                                <option>海淀区</option>
+                                                                                <option>朝阳区</option>
+                                                                                <option>昌平区</option>
+                                                                            </select>
+
+                                                                        </div>
+                                                                    </div>
+
+                                                                </li>
+
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>域名绑定:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <input type="text" name=""  class="form-control">
+                                                                        </div>
+                                                                        <div class="personal-right">
+                                                                            <span>输入二级域名,如:010.rencai.com</span>
+                                                                        </div>
+                                                                    </div>
+
+
+                                                                </li>
+
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>触屏版域名:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <input type="text" name="" class="form-control">
+                                                                        </div>
+                                                                        <div class="personal-right">
+                                                                            <span>输入二级域名,如:010.rencai.com</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>风格模板:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <select class="form-control">
+                                                                                <option value="0">请选择</option>
+                                                                                <option value="1">默认</option>
+                                                                                <option value="2">default</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="substation-li">
+                                                                    <div class="substation-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>分站排序:</span>
+                                                                        </div>
+                                                                        <div class="substation-content">
+                                                                            <input type="text" name="" class="form-control">
+                                                                        </div>
+                                                                        <div class="personal-right">
+                                                                            <span>数字越大越靠前</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class="substation-li">
+                                                                    <div class="basic-settings">
+                                                                        <div class="personal-left">
+                                                                            <span>网站LOGO:</span>
+                                                                        </div>
+                                                                        <div class="basic-content">
+                                                                            <div class="fileupload fileupload-new" data-provides="fileupload">
+                                                                                <div class="fileupload-new thumbnail" >
+                                                                                    <img class="basic-img" src="http://www.placehold.it/150x100/EFEFEF/AAAAAA&amp;text=no+image" alt="" >
+                                                                                </div>
+                                                                                <div class="fileupload-preview fileupload-exists thumbnail" >
+                                                                                </div>
+                                                                                <div>
+                            <span class="btn btn-white btn-file">
+                              <span class="fileupload-new">
+                                <i class="fa fa-paper-clip">
+                                </i>
+                                点击上传
+                              </span>
+
+                              <span class="fileupload-exists">
+                                <i class="fa fa-undo">
+                                </i>
+                               更换
+                              </span>
+                              <input type="file" class="default">
+                            </span>
+                                                                                    <span class="btn btn-white">
+
+                                <a href="">查看大图</a>
+                              </span>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <div class="personal-bc">
+                                                                    <button type="submit" class=" btn  substation-btn">保存</button>
+                                                                </div>
+                                                            </form>
+                                                        </ul>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a2" type="checkbox">
+                                            <label for="checkbox_a2"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">广州</a></td>
+                                    <td>gz.yjob.net</td>
+                                    <td>gz.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        广东省
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a3" type="checkbox">
+                                            <label for="checkbox_a3"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">上海</a></td>
+                                    <td>sh.yjob.net</td>
+                                    <td>sh.yjob.net/m</td>
+                                    <td>禁用</td>
+                                    <td>
+                                        上海市
+                                    </td>
+                                    <td>
+                                        默认
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a4" type="checkbox">
+                                            <label for="checkbox_a4"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">北京</a></td>
+                                    <td>bj.yjob.net</td>
+                                    <td>bi.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        北京市
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a5" type="checkbox">
+                                            <label for="checkbox_a5"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">广州</a></td>
+                                    <td>gz.yjob.net</td>
+                                    <td>gz.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        广东省
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a6" type="checkbox">
+                                            <label for="checkbox_a6"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">上海</a></td>
+                                    <td>sh.yjob.net</td>
+                                    <td>sh.yjob.net/m</td>
+                                    <td>禁用</td>
+                                    <td>
+                                        上海市
+                                    </td>
+                                    <td>
+                                        默认
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a7" type="checkbox">
+                                            <label for="checkbox_a7"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">北京</a></td>
+                                    <td>bj.yjob.net</td>
+                                    <td>bi.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        北京市
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a8" type="checkbox">
+                                            <label for="checkbox_a8"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">广州</a></td>
+                                    <td>gz.yjob.net</td>
+                                    <td>gz.yjob.net/m</td>
+                                    <td>可用</td>
+                                    <td>
+                                        广东省
+                                    </td>
+                                    <td>
+                                        default
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+                                <!-- 新起一行 -->
+                                <tr>
+                                    <td>
+                                        <!-- <input type="checkbox" name="" class="chk"> -->
+                                        <div class="checkbox checkbox-info checkbox-inline checkbox-single">
+                                            <input id="checkbox_a9" type="checkbox">
+                                            <label for="checkbox_a9"></label>
+                                        </div>
+                                    </td>
+                                    <td ><a href="#" class="text-blue">上海</a></td>
+                                    <td>sh.yjob.net</td>
+                                    <td>sh.yjob.net/m</td>
+                                    <td>禁用</td>
+                                    <td>
+                                        上海市
+                                    </td>
+                                    <td>
+                                        默认
+                                    </td>
+                                    <td>
+                                        <a href="" class="text-primary">修改</a>&nbsp;|&nbsp;
+                                        <a href="" class="text-primary">删除</a>
+
+                                    </td>
+                                </tr>
+
+
+
+                                </tbody>
+                            </table>
+                            <div class="pull-left bottom-btn-group">
+                                <div class="checkbox checkbox-info checkbox-inline">
+                                    <input id="checkbox_qx" name="full-select" type="checkbox">
+                                    <label for="checkbox_qx">全选</label>
+                                </div>
+
+                                <button type="button" class="btn">
+                                    删除
+                                </button>
+                                <button type="button" class="btn" href="#myModal" data-toggle="modal">
+                                    添加分站
+
+                                </button>
+                                <div class="modal fade" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header enterprise-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                                    ×
+
+                                                </button>
+                                                <h4 class="modal-title">添加分站</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <ul class="p-info">
+                                                    <form method="post" action="" class="form-horizontal">
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>分站名称:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <input type="text" name="" class="form-control">
+                                                                </div>
+                                                                <div class="personal-right">
+                                                                    <span>如:北京人才网</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>分站状态:</span>
+                                                                </div>
+                                                                <div class="personal-radio">
+                                                                    <input type="radio" name="member" value="0" checked="checked">可用
+                                                                    <input type="radio" name="member" value="1">禁用
+                                                                </div>
+                                                            </div>
+
+                                                        </li>
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>分站地区:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <select class="form-control">
+                                                                        <option>北京市</option>
+                                                                        <option>上海市</option>
+                                                                        <option>广州市</option>
+                                                                    </select>
+
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <select class="form-control">
+                                                                        <option>海淀区</option>
+                                                                        <option>朝阳区</option>
+                                                                        <option>昌平区</option>
+                                                                    </select>
+
+                                                                </div>
+                                                            </div>
+
+                                                        </li>
+
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>域名绑定:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <input type="text" name=""  class="form-control">
+                                                                </div>
+                                                                <div class="personal-right">
+                                                                    <span>输入二级域名,如:010.rencai.com</span>
+                                                                </div>
+                                                            </div>
+
+
+                                                        </li>
+
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>触屏版域名:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <input type="text" name="" class="form-control">
+                                                                </div>
+                                                                <div class="personal-right">
+                                                                    <span>输入二级域名,如:010.rencai.com</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>风格模板:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <select class="form-control">
+                                                                        <option value="0">请选择</option>
+                                                                        <option value="1">默认</option>
+                                                                        <option value="2">default</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="substation-li">
+                                                            <div class="substation-settings">
+                                                                <div class="personal-left">
+                                                                    <span>分站排序:</span>
+                                                                </div>
+                                                                <div class="substation-content">
+                                                                    <input type="text" name="" class="form-control">
+                                                                </div>
+                                                                <div class="personal-right">
+                                                                    <span>数字越大越靠前</span>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <li class="substation-li">
+                                                            <div class="basic-settings">
+                                                                <div class="personal-left">
+                                                                    <span>网站LOGO:</span>
+                                                                </div>
+                                                                <div class="basic-content">
+                                                                    <div class="fileupload fileupload-new" data-provides="fileupload">
+                                                                        <div class="fileupload-new thumbnail" >
+                                                                            <img class="basic-img" src="http://www.placehold.it/150x100/EFEFEF/AAAAAA&amp;text=no+image" alt="" >
+                                                                        </div>
+                                                                        <div class="fileupload-preview fileupload-exists thumbnail" >
+                                                                        </div>
+                                                                        <div>
+                            <span class="btn btn-white btn-file">
+                              <span class="fileupload-new">
+                                <i class="fa fa-paper-clip">
+                                </i>
+                                点击上传
+                              </span>
+
+                              <span class="fileupload-exists">
+                                <i class="fa fa-undo">
+                                </i>
+                               更换
+                              </span>
+                              <input type="file" class="default">
+                            </span>
+                                                                            <span class="btn btn-white">
+
+                                <a href="">查看大图</a>
+                              </span>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                        <div class="personal-bc">
+                                                            <button type="submit" class=" btn  substation-btn">保存</button>
+                                                        </div>
+                                                    </form>
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                            <ul class="pagination success pull-right ">
+                                <li class="disabled">
+                                    <a href="#fakelink">
+                                        首页
+                                    </a>
+                                </li>
+                                <li class="disabled">
+                                    <a href="#fakelink">
+                                        上一页
+                                    </a>
+                                </li>
+                                <li class="active">
+                                    <a href="#fakelink">
+                                        1
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        2
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        3
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        4
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        下一页
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#fakelink">
+                                        尾页
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        </li>
+                        </ul>
+                    </div>
+
+                </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+
+<include file="Public:footer"/>
+
+

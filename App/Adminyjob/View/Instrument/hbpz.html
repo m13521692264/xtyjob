@@ -1,0 +1,167 @@
+
+<include file="Public:header"/>
+<body>
+<!-- 开始-->
+<section id="container">
+<include file="Public:top"/>
+    <!---正文-->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <ul>
+                                <li class="lifirst">
+                                    红包配置
+                                </li>
+                                <div class="first-hr">
+                                    <hr />
+                                </div>
+                                <form method="post" action="" class="form-horizontal">
+                                    <li class="personal-li" >
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">一等奖</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <span style="float:left;margin-left:30px;">金额</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;">
+                                                <span style="float:left">-</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;">
+                                            </div>
+                                            <div class="personal-content">
+                                                <span style="float:left;margin-left:30px;">数量</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="personal-li"id="li" >
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">二等奖</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <span style="float:left;margin-left:30px;">金额</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;">
+                                                <span style="float:left">-</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;">
+                                            </div>
+                                            <div class="personal-content">
+                                                <span style="float:left;margin-left:30px;">数量</span>
+                                                <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;">
+                                            </div>
+                                        </div>
+                                    </li >
+                                    <li class="personal-li">
+                                        <div class="hongbaopz ">
+                                            <input type="button" class=" btn  alter-btn" value="增加新任务" id="hban">
+                                        </div>
+
+                                    </li >
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span>分销奖配置:</span>
+                                            </div>
+                                            <div class="personal-radio">
+                                                <input type="radio" name="sms" value="0" checked="checked" id="hongbaok">开启
+                                                <input type="radio" name="sms" value="1" id="hongbaog">关闭
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">获奖者百分比:</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <input  type="text" name="" class="form-control hongbao-input">
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">时间配置</span>
+                                            </div>
+                                        </div>
+
+
+                                    </li>
+
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">开始时间:</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <input type="text" name="from" class=" form-control shijian-input dpd1">
+                                            </div>
+                                        </div>
+                                        <div class="hongbao-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">结束时间:</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <input type="text" name="to" class=" form-control shijian-input dpd2">
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-left">
+                                                <span class="s1">　时间点:</span>
+                                            </div>
+                                            <div class="personal-content">
+                                                <input type="text" name="from" class=" form-control shijian-input timepicker-24">
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="personal-li">
+                                        <div class="personal-settings">
+                                            <div class="hongbao-dibu">
+                                                <span class="s1">合计:本次抽奖将最大支出XXX元，最小支出XXX元</span>
+                                            </div>
+                                        </div>
+
+
+                                    </li>
+                                    <div class="personal-bc">
+                                        <button type="submit" class=" btn  hongbao-btn">保存</button>
+                                    </div>
+                                </form>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+<include file="Public:footer"/>
+<script>
+    $(document).ready(function(){
+        $("#hban").click(function(){
+            $("#li").append('<li class="personal-li" id="li2"> <div class="personal-settings"> <div class="hongbao-left"> <span class="s1">二等奖</span> </div> <div class="personal-content"> <span style="float:left;margin-left:30px;">金额</span> <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;"> <span style="float:left">-</span> <input type="text" name="" class="form-control sms-input" style="float:left;"> </div> <div class="personal-content"> <span style="float:left;margin-left:30px;">数量</span> <input type="text" name="" class="form-control sms-input" style="float:left;margin-left:10px;"> </div> </div> </li>');
+        })
+        $("#hongbaog").click(function(){
+            $(".hongbao-input").attr("disabled",true)
+        })
+        $("#hongbaok").click(function(){
+            $(".hongbao-input").attr("disabled",false)
+
+        })
+    });
+
+</script>
+<!-- END JS -->
+</body>
+</html>
+
+

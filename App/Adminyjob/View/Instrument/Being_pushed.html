@@ -1,0 +1,116 @@
+<include file="Public:header"/>
+<body>
+<!-- 开始-->
+<section id="container">
+    <!--头部-->
+<include file="Public:top"/>
+    <!--结束-->
+    <!---正文-->
+    <section id="main-content">
+        <section class="wrapper">
+            <section class="panel panel-first">
+                <div class="">
+                    <div class="panel with-nav-tabs panel-info panel-square panel-no-border">
+                        <div class="panel-body body-waiwei">
+                            <form method="post" action="{:U('Admin/Instrument/Being_pushed_submit')}" class="form-horizontal">
+                                <ul>
+                                    <li class="first-font">
+                                        消息推送
+                                    </li>
+                                    <div class="bespread-hr">
+                                        <hr />
+                                    </div>
+                                    <li>
+                                        <div class="form-group">
+                                            <label class="control-label pull-left" for="headline">标题:</label>
+
+                                            <div class="headline-input">
+                                                <input id="headline" type="text" class="form-control" name="news_title">
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <hr class="content-hr"/>
+                                    <li>
+                                        <div class="form-group">
+                                            <label class="control-label  pull-left" for="details">内容:</label>
+                                            <div class="details-input">
+                                                <textarea id="details" cols="50" rows="9" name="news_content"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </li>
+                                    <hr class="content-hr"/>
+                                    <li>
+                                        <div class="form-group news-left">
+                                            <label class="control-label pull-left tuisong">推送对象:</label>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan_one">
+                                                <input type="checkbox" id="checkbox_a1" name="news_obj[]" value="兼职">
+                                                <label for="checkbox_a1">兼职</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a2" name="news_obj[]" value="督导">
+                                                <label for="checkbox_a2">督导</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a3" name="news_obj[]" value="BD">
+                                                <label for="checkbox_a3">BD</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a4" name="news_obj[]" value="企业">
+                                                <label for="checkbox_a4">企业</label>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <script>
+                                    	
+                                    </script>
+                                    <hr class="content-hr"/>
+                                    <li>
+                                        <div class="form-group news-left">
+                                            <label class="control-label pull-left tuisong">推送方式:</label>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan_one">
+                                                <input type="checkbox" id="checkbox_a5" name="news_way[]" value="站内">
+                                                <label for="checkbox_a5">站内</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a6" name="news_way[]" value="APP">
+                                                <label for="checkbox_a6">APP</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a7" name="news_way[]" value="短信">
+                                                <label for="checkbox_a7">短信</label>
+                                            </div>
+                                            <div class="checkbox checkbox-info checkbox-single fuxuan">
+                                                <input type="checkbox" id="checkbox_a8" name="news_way[]" value="微信">
+                                                <label for="checkbox_a8">微信</label>
+                                            </div>
+
+                                        </div>
+
+                                    </li>
+                                    <div class="bespread-hr">
+                                        <hr />
+                                    </div>
+                                    <div class="send">
+                                        <button type="submit" class=" btn  btnsend">发送</button>
+                                    </div>
+
+
+                                    </li>
+                                </ul>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</section>
+<!-- 结束 -->
+<include file="Public:footer"/>
+
+

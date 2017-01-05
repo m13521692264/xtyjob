@@ -1,0 +1,289 @@
+/*重置密码*/
+
+.change_password li .cz-input {
+	width: 60%;
+	height: 43px;
+	line-height: 43px;
+	background-color: #FFFFFF;
+	border: 0;
+	font-size: 13px;
+	color: #333333;
+	float: left;
+}
+
+.cz-button {
+	width: 30%;
+	float: right;
+	display: inline;
+	line-height: 43px;
+	height: 43px;
+	border: 0;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	background: url(../imgs/wz101.png) no-repeat left center #FFFFFF;
+	background-size: 1px 18px;
+}
+
+
+/*手机登录*/
+
+.sjdl-mima {
+	width: 50%;
+	float: left;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.sjdl-sj {
+	width: 50%;
+	float: right;
+	height: 43px;
+	line-height: 43px;
+	text-align: center;
+	font-size: 13px;
+	color: #AAAAAA;
+}
+
+.btn-dl1 {
+	margin: 5% 15% 0;
+	background-color: #00a0e9;
+	height: 40px;
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	width: 70%;
+	border-radius: 20px;
+}
+
+.btn-dl {
+	margin: 5% 15% 0;
+	background-color: #fff;
+	height: 40px;
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+	color: #4CB7EC;
+	width: 70%;
+	border-radius: 20px;
+	border: 1px solid #9FD8F2;
+}
+
+.btn-dl:hover {
+	background-color: #00a0e9;
+	color: #fff;
+}
+
+.dl-footer {
+	width: 100%;
+	height: 119px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.dl-button {
+	width: 30%;
+	float: right;
+	display: inline;
+	line-height: 43px;
+	height: 43px;
+	border: 0;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	background: url(../imgs/wz101.png) no-repeat left center #FFFFFF;
+	background-size: 1px 18px;
+}
+
+.footer-left {
+	width: 30%;
+	background: url(../imgs/8.png) no-repeat left center;
+	height: 43px;
+	float: left;
+}
+
+.footer-center {
+	width: 40%;
+	height: 43px;
+	float: left;
+	line-height: 43px;
+	text-align: center;
+	font-size: 13px;
+	color: #6D6D6D;
+}
+
+.footer-right {
+	width: 30%;
+	background: url(../imgs/9.png) no-repeat right center;
+	height: 43px;
+	float: right;
+}
+
+.footer-tu a {
+	width: 25%;
+	float: left;
+	height: 80px;
+	margin-top: -10px;
+	background: url(../imgs/2.png) no-repeat center;
+	background-size: 50px;
+}
+
+.footer-tu1 a {
+	width: 25%;
+	float: left;
+	height: 80px;
+	margin-top: -10px;
+	background: url(../imgs/1.png) no-repeat center;
+	background-size: 50px;
+}
+
+.footer-tu2 a {
+	width: 25%;
+	float: left;
+	height: 80px;
+	margin-top: -10px;
+	background: url(../imgs/4.png) no-repeat center;
+	background-size: 50px;
+}
+
+.footer-tu3 a {
+	width: 25%;
+	float: left;
+	height: 80px;
+	margin-top: -10px;
+	background: url(../imgs/5.png) no-repeat center;
+	background-size: 50px;
+}
+
+.dl-xxkt {
+	height: 17px;
+	width: 0;
+	background: url(../imgs/7.png) no-repeat center;
+	position: absolute;
+	background-size: 16px;
+}
+
+.wjmm {
+	width: 30%;
+	float: right;
+	text-align: right;
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+.mmdl-smm {
+	width: 60%;
+	float: left;
+	display: inline;
+	background-color: #FFFFFF;
+	line-height: 43px;
+	height: 43px;
+	font-size: 14px;
+	color: #333333;
+	border: 0;
+}
+
+.user-eye {
+	height: 43px;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	background: url(../imgs/13.png) no-repeat right #fff;
+	background-size: 23px;
+}
+
+.user-eyek {
+	height: 43px;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	background: url(../imgs/12.png) no-repeat right #fff;
+	background-size: 23px;
+}
+
+.qchm {
+	height: 43px;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	background: url(../imgs/14.png) no-repeat right #fff;
+	background-size: 13px;
+	text-align: right;
+	display: none;
+}
+
+.qchm1 {
+	height: 43px;
+	width: 35%;
+	display: inline-block;
+	float: left;
+	background: url(../imgs/14.png) no-repeat right #fff;
+	background-size: 13px;
+	text-align: right;
+	display: none;
+}
+
+
+/*个人注册*/
+
+.change_password li .grzc-input {
+	width: 60%;
+	height: 43px;
+	line-height: 43px;
+	background-color: #FFFFFF;
+	border: 0;
+	font-size: 13px;
+	color: #333333;
+	float: left;
+}
+
+.grzc-button {
+	width: 30%;
+	float: right;
+	display: inline;
+	line-height: 43px;
+	height: 43px;
+	border: 0;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	background: url(../imgs/wz101.png) no-repeat left center #FFFFFF;
+	background-size: 1px 18px;
+}
+
+.mycenter .grzc {
+	width: 100%;
+	font-size: 15px;
+	color: #333333;
+	line-height: 44px;
+	text-align: center
+}
+
+.mycenter .qhsf {
+	width: 40%;
+	font-size: 15px;
+	color: #333333;
+	line-height: 44px;
+	text-align: right;
+	float: left;
+	position: absolute;
+	top: 0%;
+	right: 5%;
+}
+
+.grzc-footer {
+	width: 100%;
+	height: 43px;
+	text-align: center;
+	line-height: 43px;
+	font-size: 13px;
+	position: absolute;
+	bottom: 0px;
+}
+
+.grzc-footer a {
+	color: #00A0E9;
+}

@@ -1,0 +1,6 @@
+/*后台分页CSS样式*/
+.pagination>li>a.current{
+	background-color:#428bca;
+	border-color:#428BCA;
+	color:#fff;
+}

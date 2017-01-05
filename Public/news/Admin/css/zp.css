@@ -1,0 +1,606 @@
+/*头部的颜色*/
+.toubu-color{
+    background:#00A0E9;
+}
+/*消息推送*/
+/*第一个li的字体CSS*/
+.first-font{
+    font-size:16px;
+    color: #333333;
+}
+/*铺满ul的下划线*/
+.bespread-hr{
+    width:105%;
+    margin-left: -35px;
+}
+/*标题CSS*/
+.headline-input{
+    width:249px;
+    height:32px;
+    float:left;
+    margin-left: 20px;
+    margin-top: -4px;
+}
+/*内容CSS*/
+.details-input>input{
+    width:398px;
+    height:198px;
+
+}
+.details-input{
+    width:auto;
+    height:auto;
+    float:left;
+    margin-left: 20px;
+    margin-top: -4px;
+
+}
+/*推送方式跟推送对象CSS*/
+.tuisong{
+    margin-left: -21px;
+}
+/*复选CSS*/
+.fuxuan_one{
+    float:left;
+    margin-left: 12px;
+}
+.fuxuan{
+    float:left;
+    margin-left: 30px;
+}
+/*发送按钮*/
+.btnsend{
+    width:80px;
+    height:26px;
+    background:#59ACE2;
+    margin-left: 46px;
+    color:#fff;
+    line-height: 10px;
+}
+.panel-body .form-group.news-left{
+    margin-left: 20px;
+    display:inline;
+}
+
+/*中间所有的下划线*/
+.content-hr{
+    margin-top: 20px;
+}
+/*意见和建议*/
+/*头部字体*/
+.opinion-font{
+    color:#015C94;
+    display: block;
+    margin-top: 8px;
+}
+.opinion-hr{
+    width:103%;
+    margin-left:-15px;
+    margin-top: 11px;
+}
+
+/*分类显示间距*/
+.classify-d{
+    margin-top: -20px;
+}
+.classify-jz{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.classify-s{
+    margin-top: 16px;
+    color:#333333;
+}
+/*内容自动换行*/
+.hx-td{
+    width:35%;
+    table-layout:fixed;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+
+.page-dbu{
+    margin-top: -47px;
+    margin-right: 56px;
+}
+.page-dbu>li a {
+    margin-left: 10px;
+    border-radius:4px
+}
+
+/*删除按钮*/
+.delete-btn{
+    width:80px;
+    height:30px;
+    color:#333333;
+    margin-left: 10px;
+    margin-bottom: 17px;
+}
+.bottombtn{
+    margin-top: 20px;
+}
+.quanxuan{
+    display:inline;
+    margin-left: 10px;
+}
+
+
+/*管理分类*/
+
+.body-waiwei ul li .pull-right a{
+    color:#59ACE2;
+}
+/*子类CSS*/
+.subclass{
+    padding-left: 28px;
+    height:10px;
+    line-height: 10px;
+}
+/*父类*/
+.superclass{
+    background-color: #FBFBFB;
+    color:#333333;
+}
+
+
+/*修改分类*/
+.alter-classify{
+    color: #333333;
+    width: 120px;
+    height: 33px;
+    margin-left: 40px;
+    display: inline;
+}
+
+.sort-class{
+    color: #333333;
+    margin-left: 41px;
+    width: 60px;
+    height: 33px;
+    display: inline;
+}
+.alter-span{
+    margin-left: 10px;
+    display: inline;
+}
+.send .alter-btn{
+    width:80px;
+    height:26px;
+    background:#59ACE2;
+    margin-left: 100px;
+    color:#fff;
+    line-height: 10px;
+    display: inline;
+}
+/*添加分类*/
+.add_class_new{
+    display:block;
+}
+/*内容管理*/
+.content-search{
+    width:270px;
+    height:28px;
+    background:#fff url(../img/images/search_09.png) no-repeat 95% 5px;
+    font-size:12px;
+    border-radius:15px;
+}
+.job-span{
+    display: inline;
+    margin-right: 10px;
+}
+/*单选样式*/
+.content-radio input{
+    display:none;
+    margin-left: 10px;
+}
+
+.content-span{
+    float:left;
+}
+
+/*内容添加*/
+.content-class{
+    width: 120px;
+    height: 32px;
+    margin-left: 19px;
+    display: inline;
+    float: left;
+}
+.content-gjz{
+    width: 429px;
+    margin-left: 29px;
+    display: inline;
+    float: left;
+}
+.content-zd{
+    margin-left: 15px;
+    margin-top:8px;
+    display:inline-block;
+}
+.content-zd input[type=checkbox]{
+    margin-right: 7px;
+    margin-left:7px;
+    display:inline;
+}
+
+.content-bt input[type=radio]{
+    margin-left: 20px;
+    margin-right: 7px;
+    margin-top: 8px;
+    display:inline;
+}
+
+.content-zy{
+    margin-left: 44px;
+    display:inline;
+}
+.content-zy textarea{
+    /*border-radius: 5px;*/
+}
+.content-zw{
+    width: 602px;
+    height: 200px;
+    margin-left: 113px;
+}
+.content-laiyuan{
+    margin-left: 20px;
+    display:inline;
+}
+.input_text_select{
+    background-image:url(../img/input_bg.gif);
+    background-position:right center;
+    cursor:pointer;
+    background-repeat: no-repeat;
+}
+.input_text_200 {
+    width: 200px;
+    height: 30px;
+    border: 1px solid;
+    border-color: #666666 #CCCCCC #CCCCCC #666666;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 3px;
+    background-color: #F9F9F9;
+    border-radius:5px
+}
+.menu{
+    position: absolute;
+    left: 0px;
+    top: 23px;
+    z-index: 1000;
+    background-color: #FFFFFF;
+    border: 1px #8A89A9 solid;
+    width: 206px;
+    display: none;
+}
+/*职位列表*/
+.job-zd{
+    float:left;
+}
+.content-nature .btn-group.job-jzz label{
+    margin-top: 3px;
+}
+.job-jzz{
+    padding-left:12px;
+
+    width: 90%;
+}
+.content-nature{
+    width:auto;
+    height:auto;
+}
+.job-jz{
+    /*margin-top: -28px;*/
+    /*margin-left: 72px;*/
+    width: auto;
+
+}
+
+.content-nature .job-jz .btn .active .btn-default input{
+    margin-top:10px;
+}
+/*企业认证*/
+.bottom-btn-group .btn-group .enterprise-jujue{
+    color:#333333;
+    height:34px;
+}
+.enterprise-header{
+    background-color:#59ACE2;
+    text-align: center;
+    font-size: 16px;
+}
+.fade.in .modal-dialog .modal-body .p-info .enterprise-li{
+    border-bottom: 1px solid #ebeae6;
+    margin-bottom:15px;
+    line-height: 30px;
+}
+.left{
+    float:left;
+    width:12%;
+    text-align: right;
+    line-height: initial;
+}
+.right{
+    color:#333333;
+    margin-left: 80px;
+    margin-top:-2px;
+    padding-bottom: 13px;
+    line-height: 22px;
+}
+.enterprise-logo{
+    float:left;
+}
+.enterprise-zhizhao{
+    float:left;
+}
+.enterprise-logo-left{
+    float:left;
+}
+.enterprise-logo-right{
+    margin-left:200px;
+}
+.enterprise-img{
+    margin-left:15px;
+    float:left;
+}
+
+/*个人设置*/
+.personal-settings{
+    width:100%;
+    height:50px;
+}
+
+.personal-left{
+    float:left;
+    width:14%;
+    text-align: right;
+
+}
+.personal-content{
+    padding-left:10px;
+    float:left;
+}
+.personal-content input{
+    width:100px;
+}
+.personal-right span{
+    padding-left:10px;
+}
+.personal-li{
+    border-bottom: 1px solid #ebeae6;
+    margin-top: 20px;
+    line-height: 30px;
+}
+.personal-xuxian{
+    border-bottom:1px dashed #ebeae6;
+    margin-top: 20px;
+    line-height: 30px;
+    display:inline;
+}
+.personal-radio input[type=radio]{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right:7px;
+    display:inline;
+}
+.personal-btn{
+    width:80px;
+    height:26px;
+    background:#59ACE2;
+    margin-left: 150px;
+    color:#fff;
+    line-height: 10px;
+    margin-top:20px;
+    display:inline;
+}
+
+/*基本配置*/
+
+.basic-content{
+    widht:200px;
+    padding-left:10px;
+    float:left
+}
+.basic-content input{
+    width:253px;
+}
+.basic-settings{
+    width:100%;
+    height:170px;
+}
+.fileupload .thumbnail>img{
+    width:150px;
+}
+
+/*实名认证*/
+.name-logo{
+    float:left;
+    margin-left:13px;
+}
+
+/*添加分站*/
+.substation-li{
+    border-bottom: 1px solid #ebeae6;
+    line-height:30px;
+}
+.substation-settings{
+    width:100%;
+    height:46px;
+}
+.bottom-btn-group .personal-bc .substation-btn{
+    width:80px;
+    height:26px;
+    background:#59ACE2;
+    margin-left: 88px;
+    color:#fff;
+    line-height: 10px;
+}
+.substation-content{
+    float:left;
+    padding-left: 10px;
+}
+.substation-content input{
+    width:100px;
+}
+
+
+/*邮件设置*/
+.form-horizontal .email-btn{
+    width:80px;
+    height:26px;
+    background:#59ACE2;
+    margin-left: 20px;
+    color:#fff;
+    line-height: 10px;
+    margin-top:20px;
+}
+
+
+/*短信设置开启或者关闭*/
+.guanbi{
+    color:#ebeae6;
+}
+.kaiqi{
+    color:#333333;
+}
+
+
+/*银行卡查询*/
+.bank-input{
+    width:105px;
+    font-size:12px;
+}
+
+
+
+/*地区分类*/
+.region-topspan{
+    color:#999999;
+    font-size: 12px;
+    margin-right: 10px;
+    display: inline;
+}
+.region-ord{
+    width:35px;
+}
+.leftimg ,.leftimg1,.leftimg2{
+    margin-top: -6px;
+    margin-right: 5px;
+    margin-left:5px;
+    display:inline;
+}
+.region-span{
+    margin-top: -5px;
+    display:inline-block;
+}
+.region-btn{
+    margin-left: 10px;
+    margin-right:16px;
+    display:inline;
+    background: #fff;
+    border: 1px solid #dddddd;
+    color: #333333;
+}
+
+/*推广查询*/
+.generalize-send .alter-btn{
+    width:80px;
+    height:32px;
+    background:#59ACE2;
+    margin-left: 127px;
+    margin-top:-56px;
+    color:#fff;
+    line-height: 10px;
+    display: inline;
+}
+.generalize-input{
+    width:120px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*第三方软件登录*/
+.registr-content{
+    margin-left: 10px;
+    float:left;
+    display:inline;
+}
+.registr-content input{
+    width:168px;
+
+}
+
+/*红包*/
+.body-waiwei ul li .hongbao .alter-btn{
+    width: 80px;
+    height: 26px;
+    background: #E9E9E9;
+    line-height: 10px;
+    display: inline;
+    color: #333333;
+    border:1px #A2A2A2 solid;
+}
+.hongbao-left{
+    float:left;
+    font-size:16px;
+    font-weight:bold;
+}
+.hongbao-content{
+    float:left;
+    padding-left:20px;
+}
+.hongbaopz .alter-btn{
+    width: 110px;
+    height: 36px;
+    background: #E9E9E9;
+    line-height: 21px;
+    display: inline-block;
+    color: #333333;
+    border: 1px #A2A2A2 solid;
+    margin-bottom: 19px;
+}
+.hongbao-dibu{
+    font-size:16px;
+    font-weight:bold;
+    text-align: center;
+}
+.hongbao-btn{
+    width: 80px;
+    height: 26px;
+    background: #59ACE2;
+    margin-left: 150px;
+    color: #fff;
+    line-height: 10px;
+    margin-top: 20px;
+    display: inline;
+    margin-left: 478px;
+}
+.shuoming{
+    width: 230px;
+    right: 41px;
+    position: absolute;
+    background-color: #fff;
+}
+input.form_datetime.form-control.shijian-input{
+    width:140px;
+}
+.hongbao-settings{
+    height: 50px;
+    margin-left: 300px;
+    margin-: 50px;
+    margin-top: -50px;
+}
+
+/*获奖名单*/
+.hjmd{
+    margin-bottom: 20px;
+    height: 30px;
+}
+.hjmd span{
+    float:left;
+}
+.hjmd-send{
+    margin-left: 20px;
+    float: left;
+    display: inline;
+}
